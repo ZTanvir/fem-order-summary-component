@@ -101,13 +101,13 @@ body {
     justify-items: center;
     width: 450px;
     --content-spaceing: 1rem;
-    --content-padding: 1rem;
+    --content-padding: 1.5rem;
 }
 .order-summary__content {
     display: grid;
     font-family: var(--ff-red-hat);
     padding: var(--content-padding);
-    gap: var(--content-padding);
+    gap: var(--content-spaceing);
 }
 .order-summary__title {
     font-weight: var(--fw--bolder);
@@ -121,4 +121,17 @@ body {
 .order-summary__price-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--very-pale-blue);
+    padding: var(--content-padding);
+    border-radius: 1rem;
+}
+.order-summary__icon-plan {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.order-summary__change {
+    display: flex;
+    align-items: center;
 }
