@@ -91,3 +91,34 @@ h6 {
     white-space: nowrap;
     width: 1px;
 }
+body {
+    display: grid;
+    place-items: center;
+    background-repeat: no-repeat;
+}
+.order-summary {
+    display: grid;
+    justify-items: center;
+    width: 450px;
+    --content-spaceing: 1rem;
+    --content-padding: 1rem;
+}
+.order-summary__content {
+    display: grid;
+    font-family: var(--ff-red-hat);
+    padding: var(--content-padding);
+    gap: var(--content-padding);
+}
+.order-summary__title {
+    font-weight: var(--fw--bolder);
+}
+.order-summary__details {
+    font-weight: var(--fw-medium);
+}
+:is(.order-summary__title, .order-summary__details) {
+    text-align: center;
+}
+.order-summary__price-section {
+    display: flex;
+    flex-wrap: wrap;
+}
