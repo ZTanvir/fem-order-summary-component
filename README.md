@@ -20,7 +20,7 @@ This is a solution to the [Order summary component challenge on Frontend Mentor]
 ### Links
 
 - Solution URL: [Solution](https://github.com/ZTanvir/fem-order-summary-component)
-- Live Site URL: [Live site]()
+- Live Site URL: [Live site](https://ztanvir.github.io/fem-order-summary-component/)
 
 ## My process
 
