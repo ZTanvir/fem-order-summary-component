@@ -120,6 +120,7 @@ body {
     font-weight: var(--fw-medium);
     width: 80%;
     margin: 0 auto;
+    opacity: 0.5;
 }
 :is(.order-summary__title, .order-summary__details) {
     text-align: center;
@@ -134,6 +135,9 @@ body {
 }
 .order-summary__plan {
     font-weight: var(--fw--bold);
+}
+.order-summary__price{
+    opacity: 0.5;
 }
 .order-summary__icon-plan {
     display: flex;
@@ -163,6 +167,7 @@ body {
 }
 .order-summary__payment-btn-link {
     color: white;
+    font-weight: var(--fw--medium);
 }
 .order-summary__cancel {
     display: flex;
